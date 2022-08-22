@@ -1,0 +1,13 @@
+[package]
+name = "esp32-rust-pio-test"
+edition = "2021"
+version = "0.1.0"
+
+[lib]
+path = "src/lib.rs"
+name = "esp32_rust_pio_test"
+plugin = false
+proc-macro = false
+edition = "2021"
+crate-type = ["staticlib"]
+required-features = []
